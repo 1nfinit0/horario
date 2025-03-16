@@ -4,31 +4,33 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 0;
-  padding: 0px;
-  font-size: 62.5%;
+  padding: 2px;
 }
 
 .container {
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   background-color: #1e1e1e;
-  padding: 0px;
+  padding: 2px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  overflow-x: auto;
 }
 
 h1 {
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   background-color: #252525;
+  font-size: 12px; /* Reduje el tamaño del texto */
 }
 
 th, td {
-  padding: 5px;
+  padding: 6px; /* Reducido para ahorrar espacio */
   border: 1px solid #444;
   text-align: center;
 }
@@ -40,7 +42,6 @@ th {
 
 td {
   background-color: #222;
-  font-size: 1.2rem;
 }
 
 tr:nth-child(even) td {
@@ -59,6 +60,14 @@ tr:hover td {
 
 @media (max-width: 768px) {
   table {
-      font-size: 12px;
+      font-size: 10px; /* Más pequeño en móviles */
+  }
+
+  th, td {
+      padding: 4px;
+  }
+
+  h1 {
+      font-size: 16px;
   }
 }
