@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const schedule = [
-      { time: "08:00 - 09:30", activities: ["RM (2°Sec - P)", "Álg (2°Sec - P)", "Fís (6°P - P)", "Álg (6°P - P)", "Fís (4°Sec - N)", ""] },
+      { time: "08:00 - 09:30", activities: ["RM (2°Sec - P)", "Álg (2°Sec - P)", "Geom (3° sec P)", "", "Fís (4°Sec - N)", ""] },
       { time: "09:30 - 09:45", isBreak: true },
-      { time: "09:45 - 11:15", activities: ["RM (1°Sec - P)", "Fís (2°Sec - P)", "Hist (2°Sec - P)", "Fís (3°Sec - P)", "Fís (1°Sec - N)", ""] },
+      { time: "09:45 - 11:15", activities: ["RM (1°Sec - P)", "Fís (2°Sec - P)", "Hist (2°Sec - P)", "", "Fís (1°Sec - N)", ""] },
       { time: "11:15 - 11:30", isBreak: true },
-      { time: "11:30 - 13:00", activities: ["Álg (1°Sec - P)", "Quím (1°Sec - P)", "Hist (3°Sec - P)", "Cív (2°Sec - P)", "Fís (2°Sec - N)", ""] },
-      { time: "13:00 - 14:30", activities: ["RM (3°Sec - P)", "Álg (3°Sec - P)", "Hist (1°Sec - P)", "Fís (1°Sec - P)", "Fís (3°Sec - N)", ""] },
+      { time: "11:30 - 13:00", activities: ["Álg (1°Sec - P)", "Quím (1°Sec - P)", "Fis (3°Sec - P)", "", "Fís (2°Sec - N)", ""] },
+      { time: "13:00 - 14:30", activities: ["RM (3°Sec - P)", "Álg (3°Sec - P)", "Fis (1°Sec - P)", "", "Fís (3°Sec - N)", ""] },
       { time: "14:30 - 16:45", activities: ["", "", "", "", "", "Diseño P&S (0703-D)"] }, // Curso corregido
       { time: "15:30 - 17:00", activities: ["Ensayo (P)", "", "", "", "Ensayo (N)", ""] },
       { time: "18:30 - 20:00", activities: ["EstInf (0303-B)", "Lab MecClás", "Cál 1", "MecClás", "EstInf (0303-B)", "Cál 1"] }, // Curso corregido
